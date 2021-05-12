@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #36003e;
+}
+h2:focus{
+	position: relative;
+	font-size: 120px;
+	color: #181818;
+	outline: white;
+	letter-spacing: 5px;
+	text-align: center;
+	-webkit-box-reflect: below 0px linear-gradient(transparent,red);
+	line-height: 100px;
+	animation: myanimation 6s linear infinite;
+}
+h2{
+	position: relative;
+	font-size: 120px;
+	color: #181818;
+	outline: white;
+	letter-spacing: 5px;
+	text-align: center;
+	-webkit-box-reflect: below 0px linear-gradient(transparent,red);
+	line-height: 100px;
+	animation: why 6s linear infinite;
+}
+@keyframes myanimation{
+	0%,15%,20%,40.1%,60%,80%{
+		color: #181818;
+		text-shadow: 0 0 2px #2b2b2b;
+	}
+	15.1%,20.1%,40.1%,60%,80.1%,100%{
+		color: white;
+		text-shadow:0 0 10px #ff6ef8,
+					0 0 30px #ff6ef8,
+					0 0 60px #ff6ef8,
+					0 0 120px #ff6ef8;
+	}
+@keyframes why{
+		0%,15%,20%,40.1%,60%,80%{
+			color: #181818;
+			text-shadow: 0 0 2px #2b2b2b;
+		}
+		15.1%,20.1%,40.1%,60%,80.1%,100%{
+			color: white;
+			text-shadow:0 0 10px #55ffff,
+						0 0 30px #55ffff,
+						0 0 60px #55ffff,
+						0 0 120px #55ffff;
+		}
